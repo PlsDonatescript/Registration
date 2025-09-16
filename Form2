@@ -1,0 +1,219 @@
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class Form2
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        GroupBox1 = New GroupBox()
+        Label6 = New Label()
+        orgCheckList = New CheckedListBox()
+        Label5 = New Label()
+        Pass = New TextBox()
+        YearLevelList = New ComboBox()
+        Label4 = New Label()
+        SignUpBTN = New Button()
+        GenderList = New ComboBox()
+        Label3 = New Label()
+        Label2 = New Label()
+        LName = New TextBox()
+        Label1 = New Label()
+        FName = New TextBox()
+        GroupBox1.SuspendLayout()
+        SuspendLayout()
+        ' 
+        ' GroupBox1
+        ' 
+        GroupBox1.Controls.Add(Label6)
+        GroupBox1.Controls.Add(orgCheckList)
+        GroupBox1.Controls.Add(Label5)
+        GroupBox1.Controls.Add(Pass)
+        GroupBox1.Controls.Add(YearLevelList)
+        GroupBox1.Controls.Add(Label4)
+        GroupBox1.Controls.Add(SignUpBTN)
+        GroupBox1.Controls.Add(GenderList)
+        GroupBox1.Controls.Add(Label3)
+        GroupBox1.Controls.Add(Label2)
+        GroupBox1.Controls.Add(LName)
+        GroupBox1.Controls.Add(Label1)
+        GroupBox1.Controls.Add(FName)
+        GroupBox1.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        GroupBox1.Location = New Point(234, 33)
+        GroupBox1.Name = "GroupBox1"
+        GroupBox1.Size = New Size(336, 377)
+        GroupBox1.TabIndex = 0
+        GroupBox1.TabStop = False
+        GroupBox1.Text = "Registration Form"
+        ' 
+        ' Label6
+        ' 
+        Label6.AutoSize = True
+        Label6.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label6.Location = New Point(18, 204)
+        Label6.Name = "Label6"
+        Label6.Size = New Size(78, 15)
+        Label6.TabIndex = 17
+        Label6.Text = "Organization:"
+        ' 
+        ' orgCheckList
+        ' 
+        orgCheckList.Font = New Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        orgCheckList.FormattingEnabled = True
+        orgCheckList.Items.AddRange(New Object() {"PGITS", "PSITS", "GMITS"})
+        orgCheckList.Location = New Point(102, 204)
+        orgCheckList.Name = "orgCheckList"
+        orgCheckList.Size = New Size(160, 64)
+        orgCheckList.TabIndex = 16
+        ' 
+        ' Label5
+        ' 
+        Label5.AutoSize = True
+        Label5.Font = New Font("Segoe UI", 9.75F)
+        Label5.Location = New Point(22, 115)
+        Label5.Name = "Label5"
+        Label5.Size = New Size(67, 17)
+        Label5.TabIndex = 14
+        Label5.Text = "Password:"
+        ' 
+        ' Pass
+        ' 
+        Pass.Font = New Font("Segoe UI", 9.75F)
+        Pass.Location = New Point(102, 112)
+        Pass.Multiline = True
+        Pass.Name = "Pass"
+        Pass.Size = New Size(160, 24)
+        Pass.TabIndex = 13
+        ' 
+        ' YearLevelList
+        ' 
+        YearLevelList.Font = New Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        YearLevelList.FormattingEnabled = True
+        YearLevelList.Items.AddRange(New Object() {"1st year", "2nd year", "3rd year", "4th year"})
+        YearLevelList.Location = New Point(102, 173)
+        YearLevelList.Name = "YearLevelList"
+        YearLevelList.Size = New Size(160, 25)
+        YearLevelList.TabIndex = 12
+        ' 
+        ' Label4
+        ' 
+        Label4.AutoSize = True
+        Label4.Font = New Font("Segoe UI", 9.75F)
+        Label4.Location = New Point(22, 173)
+        Label4.Name = "Label4"
+        Label4.Size = New Size(69, 17)
+        Label4.TabIndex = 11
+        Label4.Text = "Year Level:"
+        ' 
+        ' SignUpBTN
+        ' 
+        SignUpBTN.Font = New Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        SignUpBTN.Location = New Point(116, 274)
+        SignUpBTN.Name = "SignUpBTN"
+        SignUpBTN.Size = New Size(129, 25)
+        SignUpBTN.TabIndex = 10
+        SignUpBTN.Text = "Sign Up"
+        SignUpBTN.UseVisualStyleBackColor = True
+        ' 
+        ' GenderList
+        ' 
+        GenderList.Font = New Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        GenderList.FormattingEnabled = True
+        GenderList.Items.AddRange(New Object() {"Male", "Female "})
+        GenderList.Location = New Point(102, 142)
+        GenderList.Name = "GenderList"
+        GenderList.Size = New Size(160, 25)
+        GenderList.TabIndex = 8
+        ' 
+        ' Label3
+        ' 
+        Label3.AutoSize = True
+        Label3.Font = New Font("Segoe UI", 9.75F)
+        Label3.Location = New Point(22, 142)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(54, 17)
+        Label3.TabIndex = 5
+        Label3.Text = "Gender:"
+        ' 
+        ' Label2
+        ' 
+        Label2.AutoSize = True
+        Label2.Font = New Font("Segoe UI", 9.75F)
+        Label2.Location = New Point(22, 85)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(73, 17)
+        Label2.TabIndex = 3
+        Label2.Text = "Last Name:"
+        ' 
+        ' LName
+        ' 
+        LName.Font = New Font("Segoe UI", 9.75F)
+        LName.Location = New Point(102, 82)
+        LName.Multiline = True
+        LName.Name = "LName"
+        LName.Size = New Size(160, 24)
+        LName.TabIndex = 2
+        ' 
+        ' Label1
+        ' 
+        Label1.AutoSize = True
+        Label1.Font = New Font("Segoe UI", 9.75F)
+        Label1.Location = New Point(22, 55)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(74, 17)
+        Label1.TabIndex = 1
+        Label1.Text = "First Name:"
+        ' 
+        ' FName
+        ' 
+        FName.Font = New Font("Segoe UI", 9.75F)
+        FName.Location = New Point(102, 52)
+        FName.Multiline = True
+        FName.Name = "FName"
+        FName.Size = New Size(160, 24)
+        FName.TabIndex = 0
+        ' 
+        ' Form2
+        ' 
+        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleMode = AutoScaleMode.Font
+        ClientSize = New Size(800, 450)
+        Controls.Add(GroupBox1)
+        Name = "Form2"
+        Text = "Form2"
+        GroupBox1.ResumeLayout(False)
+        GroupBox1.PerformLayout()
+        ResumeLayout(False)
+    End Sub
+
+    Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents FName As TextBox
+    Friend WithEvents GenderList As ComboBox
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents LName As TextBox
+    Friend WithEvents orgCheckList As CheckedListBox
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Pass As TextBox
+    Friend WithEvents YearLevelList As ComboBox
+    Friend WithEvents Label4 As Label
+    Friend WithEvents SignUpBTN As Button
+    Friend WithEvents Label6 As Label
+End Class
