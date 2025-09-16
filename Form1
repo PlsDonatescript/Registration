@@ -1,0 +1,115 @@
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+Partial Class Form1
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()>
+    Protected Overrides Sub Dispose(disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()>
+    Private Sub InitializeComponent()
+        GroupBox1 = New GroupBox()
+        loginBTN = New Button()
+        Users = New TextBox()
+        Label2 = New Label()
+        Pass = New TextBox()
+        Label1 = New Label()
+        GroupBox1.SuspendLayout()
+        SuspendLayout()
+        ' 
+        ' GroupBox1
+        ' 
+        GroupBox1.Controls.Add(loginBTN)
+        GroupBox1.Controls.Add(Users)
+        GroupBox1.Controls.Add(Label2)
+        GroupBox1.Controls.Add(Pass)
+        GroupBox1.Controls.Add(Label1)
+        GroupBox1.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        GroupBox1.Location = New Point(187, 66)
+        GroupBox1.Name = "GroupBox1"
+        GroupBox1.Size = New Size(377, 229)
+        GroupBox1.TabIndex = 0
+        GroupBox1.TabStop = False
+        GroupBox1.Text = "Login"
+        ' 
+        ' loginBTN
+        ' 
+        loginBTN.Font = New Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        loginBTN.Location = New Point(138, 105)
+        loginBTN.Name = "loginBTN"
+        loginBTN.Size = New Size(79, 30)
+        loginBTN.TabIndex = 5
+        loginBTN.Text = "Login"
+        loginBTN.UseVisualStyleBackColor = True
+        ' 
+        ' Users
+        ' 
+        Users.Location = New Point(88, 59)
+        Users.Multiline = True
+        Users.Name = "Users"
+        Users.Size = New Size(145, 17)
+        Users.TabIndex = 4
+        ' 
+        ' Label2
+        ' 
+        Label2.AutoSize = True
+        Label2.Font = New Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label2.Location = New Point(11, 82)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(67, 17)
+        Label2.TabIndex = 3
+        Label2.Text = "Password:"
+        ' 
+        ' Pass
+        ' 
+        Pass.Location = New Point(88, 82)
+        Pass.Multiline = True
+        Pass.Name = "Pass"
+        Pass.Size = New Size(145, 17)
+        Pass.TabIndex = 2
+        ' 
+        ' Label1
+        ' 
+        Label1.AutoSize = True
+        Label1.Font = New Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label1.Location = New Point(11, 60)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(44, 17)
+        Label1.TabIndex = 1
+        Label1.Text = "Users:"
+        ' 
+        ' Form1
+        ' 
+        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleMode = AutoScaleMode.Font
+        ClientSize = New Size(800, 450)
+        Controls.Add(GroupBox1)
+        Name = "Form1"
+        Text = "Form1"
+        GroupBox1.ResumeLayout(False)
+        GroupBox1.PerformLayout()
+        ResumeLayout(False)
+    End Sub
+
+    Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Pass As TextBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents loginBTN As Button
+    Friend WithEvents Users As TextBox
+
+End Class
