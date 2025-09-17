@@ -98,6 +98,7 @@ Partial Class Form2
         Pass.Location = New Point(102, 112)
         Pass.Multiline = True
         Pass.Name = "Pass"
+        Pass.PasswordChar = "*"c
         Pass.Size = New Size(160, 24)
         Pass.TabIndex = 13
         ' 
